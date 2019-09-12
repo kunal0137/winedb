@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	5275dcea-3741-4aa9-a36c-32db44b70f95
+ENGINE_ALIAS	WineFlat
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+OWL	db/@ENGINE@/WineFlat_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
